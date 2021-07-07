@@ -11,7 +11,7 @@ messages.push('Lerne in Stille, dir selbst zuzuhören.')
 
 console.log(messages)      
 
-const returnMixedMessage() {
+const returnMixedMessage() => {
     let a = Math.floor(Math.random(messages.length)
     return messages[a]
 }
